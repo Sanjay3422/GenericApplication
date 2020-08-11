@@ -7,7 +7,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.claustroproject.controller.DataStructures.MainClass;
+//import com.claustroproject.controller.DataStructures.MainClass;
 import com.claustroproject.controller.ExceptionController.ProductNotFoundException;
 
 @Controller
@@ -25,7 +25,7 @@ public class MyController {
 	@RequestMapping(method = RequestMethod.GET)
     public String index(ModelMap model){
         model.addAttribute("message", "This is the Spring MVC Annotation Example");
-        MainClass.maintain();
+//        MainClass.maintain();
 //        if(true)
 //        throw new ProductNotFoundException();
         
